@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#price-boxs {
+    background-image: url(./images/menu-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.p-box-cont {
+    padding-top: 100px;
+}
+
+.p-box-cont h4 {
+    text-align: center;
+    color: rgb(34, 34, 34);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+    margin-bottom: 10px;
+}
+
+.p-box-cont p {
+    text-align: center;
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.75px;
+}
+
+#p-boxs {
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    margin-top: 70px;
+    gap: 5%;
+}
+
+.p-box {
+    background-color: #ffffff;
+    padding: 40px 30px;
+}
+
+.f-block {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.f-block h5 {
+    color: rgb(34, 34, 34);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+}
+
+.f-block h6 {
+    color: rgb(182, 136, 52);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+}
