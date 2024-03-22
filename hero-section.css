@@ -1,0 +1,45 @@
+.hero-box {
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 1320px;
+}
+
+.hero-content h1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 55px;
+    font-weight: 800px;
+    line-height: 70px;
+    letter-spacing: 2px;
+    margin: 10px 0px;
+}
+
+.hero-content p {
+    color: rgb(172, 168, 168);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 15px 0px;
+}
+
+.hero-btn {
+    background-color: #E62E2D;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 35px 10px 35px;
+    border: 2px solid #E62E2D;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.hero-btn:hover {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #d6d6d6;
+    transition: .4s ease-in-out;
+}
