@@ -5,20 +5,21 @@
     font-family: 'Poppins', sans-serif;
 }
 
-#price-boxs {
+#menu-boxs {
     background-image: url(./images/menu-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 820px;
     width: 100%;
 }
 
-.p-box-cont {
+.menu-box-cont {
     padding-top: 100px;
+    margin-bottom: 60px;
 }
 
-.p-box-cont h4 {
+.menu-box-cont h4 {
     text-align: center;
     color: rgb(34, 34, 34);
     font-size: 36px;
@@ -27,7 +28,7 @@
     margin-bottom: 10px;
 }
 
-.p-box-cont p {
+.menu-box-cont p {
     text-align: center;
     color: rgb(119, 119, 119);
     font-size: 14px;
@@ -35,35 +36,45 @@
     line-height: 22.75px;
 }
 
-#p-boxs {
-    width: 1120px;
+#menu-p-boxs {
+    width: 1200px;
     margin: auto;
     display: flex;
-    margin-top: 70px;
-    gap: 5%;
+    margin-top: 30px;
+    gap: 3%;
 }
 
-.p-box {
+.menu-box {
     background-color: #ffffff;
-    padding: 40px 30px;
+    padding: 30px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 36px -21px rgba(77, 77, 77, 0.539);
+    /* box-shadow: 0px 0px 47px 8px rgba(182, 137, 52, 0.092); */
 }
 
-.f-block {
+.m-f-block {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
-.f-block h5 {
+.m-f-block h5 {
     color: rgb(34, 34, 34);
     font-size: 18px;
     font-weight: 600;
     line-height: 21.6px;
 }
 
-.f-block h6 {
+.m-f-block h6 {
     color: rgb(182, 136, 52);
     font-size: 18px;
     font-weight: 600;
     line-height: 21.6px;
+}
+
+.menu-box p {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.75px;
 }
