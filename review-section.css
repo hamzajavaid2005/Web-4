@@ -111,3 +111,164 @@
     line-height: 22.75px;
     margin-top: 20px;
 }
+
+
+
+/* REVIEW SECTION RESPONSIVE CODE IS STARTED HERE */
+
+
+            /*-------- DESKTOP CODE IS HERE  --------*/
+
+
+@media screen and (max-width: 1200px) {
+    .r-box {
+        width: 1000PX;
+        padding: 0 20px;
+    }
+
+    .review-box-cont h4 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .review-box-cont p {
+        font-size: 14px;
+        line-height: 22.75px;
+    }
+
+    .review-b {
+        padding: 40px 20px 20px 20px;
+        height: 300px;
+    }
+
+    .review-b img {
+        height: 40px;
+    }
+
+    .review-b h6 {
+        font-size: 18px;
+        line-height: 26.8px;
+    }
+
+    .portfolio-details h4 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .portfolio-details p {
+        font-size: 14px;
+        line-height: 22.75px;
+    }
+}
+
+
+            /*-------- TABLET CODE IS HERE  --------*/
+
+
+@media screen and (max-width: 768px) {
+    .r-box {
+        width: 100%;
+        padding: 0 20px;
+        height: 1000px;
+    }
+
+    .review-box-cont h4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .review-box-cont p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .review-boxs {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .review-b {
+        padding: 30px 20px 20px 20px;
+        height: 250px;
+        width: 400PX;
+    }
+
+    .review-b:nth-child(3) {
+        display: none;
+    }
+
+    .review-b img {
+        height: 30px;
+    }
+
+    .review-b h6 {
+        font-size: 16px;
+        line-height: 24.8px;
+    }
+
+    .portfolio-details h4 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .portfolio-details p {
+        font-size: 12px;
+        line-height: 18.75px;
+    }
+}
+
+
+            /*-------- MOBILE CODE IS HERE  --------*/
+
+
+@media screen and (max-width: 360px) {
+    .r-box {
+        width: 100%;
+        padding: 0 20px;
+        height: 1000px;
+    }
+
+    .review-box-cont h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .review-box-cont p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .review-boxs {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .review-b {
+        padding: 20px 20px 20px 20px;
+        height: 250px;
+        width: 300PX;
+    }
+
+    .review-b img {
+        height: 20px;
+    }
+
+    .review-b h6 {
+        font-size: 14px;
+        line-height: 20.8px;
+    }
+
+    .portfolio-details h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .portfolio-details p {
+        font-size: 10px;
+        line-height: 15.75px;
+    }
+
+    .numbers:nth-child(3) {
+        display: none;
+    }
+}
