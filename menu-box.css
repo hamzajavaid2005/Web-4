@@ -85,3 +85,138 @@
     font-weight: 300;
     line-height: 22.75px;
 }
+
+
+
+/* VIDEO SECTION RESPONSIVE CODE IS STARTED HERE */
+
+
+            /*-------- DESKTOP CODE IS HERE  --------*/
+
+
+@media screen and (max-width: 1200px) {
+    #menu-boxs {
+        height: 750px;
+    }
+
+    .menu-box-cont {
+        padding-top: 80px;
+    }
+
+    #menu-p-boxs {
+        width: 800px;
+        padding: 0 20px;
+    }
+
+    .menu-box {
+        padding: 20px 20px;
+    }
+
+    .menu-box:nth-child(3) {
+        display: none;
+    }
+}
+
+
+
+            /*-------- TABLET CODE IS HERE  --------*/
+
+
+@media screen and (max-width: 768px) {
+    #menu-boxs {
+        height: 700px;
+    }
+
+    .menu-box-cont {
+        padding-top: 60px;
+    }
+
+    .menu-box-cont h4 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .menu-box-cont p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    #menu-p-boxs {
+        width: 600px;
+        padding: 0 20px;
+    }
+
+    .menu-box {
+        padding: 20px 20px;
+    }
+
+    .m-f-block h5 {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+
+    .m-f-block h6 {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+
+    .menu-box p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+}
+
+
+
+            /*-------- MOBILE CODE IS HERE  --------*/
+
+
+@media screen and (max-width: 360px) {
+    #menu-boxs {
+        height: 720px;
+    }
+
+    .menu-box-cont {
+        padding-top: 50px;
+    }
+
+    .menu-box-cont h4 {
+        font-size: 26px;
+        line-height: 31.2px;
+    }
+
+    .menu-box-cont p {
+        font-size: 12px;
+        line-height: 19.2px;
+    }
+
+    #menu-p-boxs {
+        width: 300px;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .menu-box {
+        padding: 20px 20px;
+        margin: 0px 0;
+    }
+
+    .menu-box:nth-child(2) {
+        display: none;
+    }
+
+    .m-f-block h5 {
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+
+    .m-f-block h6 {
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+
+    .menu-box p {
+        font-size: 12px;
+        line-height: 19.2px;
+    }
+}
