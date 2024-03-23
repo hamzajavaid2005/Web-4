@@ -107,6 +107,10 @@
     margin-top: 20px;
 }
 
+.blogs:hover h3 {
+    color: rgb(182,136,52);
+    transition: .4s;
+}
 .blogs p {
     color: rgb(119, 119, 119);
     font-size: 14px;

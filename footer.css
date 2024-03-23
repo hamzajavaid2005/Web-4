@@ -5,24 +5,137 @@
     font-family: 'Poppins', sans-serif;
 }
 
+span {
+    color: rgb(182, 136, 52);
+    font-weight: 600;
+}
 
 #footer {
     background-image: url(./images/footer-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 550px;
     width: 100%;
     color: #ffffff;
 }
 
-#footer div {
-    padding-top: 250px;
+.footer-sect {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 200px 0px 50px 0px;
+    width: 1520px;
+    margin: auto;
+    height: 100%;
+    margin-left: 300px;
 }
 
-#footer div h4 {
-    text-align: center;
-    font-size: 70px;
+.sect-one {
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+}
+
+.sect-one h4 {
+    font-size: 18px;
     font-weight: 600;
-    line-height: 43.2px;
+    line-height: 21.6px;
+    margin-bottom: 25px;
+}
+
+.sect-one p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.75px;
+}
+
+.sect-two {
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+}
+
+.sect-two h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    margin-bottom: 25px;
+}
+
+.sect-two p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.75px;
+    margin-bottom: 15px;
+}
+
+.sect-two form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 10px;
+    border: none;
+}
+
+.sect-two form input {
+    width: 70%;
+    height: 40px;
+    border: none;
+    padding: 0px 15px;
+}
+
+.f-btn {
+    width: 10%;
+    height: 40px;
+    background-color: rgb(182, 136, 52);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.sect-three {
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+}
+
+.sect-three h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    margin-bottom: 25px;
+}
+
+.sect-three p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.75px;
+    margin-bottom: 20px;
+}
+
+.f-icons i {
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.f-icons i:hover {
+    color: rgb(182, 136, 52);
+    transition: .4s;
+}
+
+.c-sect hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    padding-top: 50px;
+    margin: 20px auto;
+}
+
+.copyright {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
 }
