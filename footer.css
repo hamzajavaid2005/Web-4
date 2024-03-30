@@ -139,3 +139,102 @@ span {
     text-align: center;
     letter-spacing: 2px;
 }
+
+
+
+
+/* BLOG SECTION RESPONSIVE CODE IS STARTED HERE */
+
+
+            /*-------- DESKTOP CODE IS HERE  --------*/
+
+
+@media screen and (max-width: 1130px) {
+    #footer {
+        height: 550px;
+        width: 100%;
+    }
+
+    .footer-sect {
+        padding: 200px 0px 50px 0px;
+        width: 1520px;
+        margin: auto;
+        height: 100%;
+        margin-left: 300px;
+    }
+
+    .sect-one {
+        width: 30%;
+    }
+
+    .sect-two {
+        width: 30%;
+    }
+
+    .sect-two form {
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 10px;
+        border: none;
+    }
+
+    .sect-three {
+        width: 30%;
+    }
+}
+
+
+/*-------- TABLET CODE IS HERE  --------*/
+
+
+@media screen and (max-width: 768px) {
+    #footer {
+        height: 800px;
+        width: 100%;
+    }
+
+    .footer-sect {
+        flex-wrap: wrap;
+        padding: 200px 30px 50px 20px;
+        width: 100%;
+        margin: auto;
+        height: 100%;
+        margin-left: 0px;
+    }
+
+    .sect-one {
+        width: 100%;
+    }
+
+    .sect-two {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .sect-three {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+
+/*-------- MOBILE CODE IS HERE  --------*/
+
+
+@media screen and (max-width: 360px) {
+    #footer {
+        height: 850px;
+        width: 100%;
+    }
+
+    .c-sect {
+        margin-top: -80px;
+        padding: 0px 20px;
+    }
+
+    .c-sect p {
+        font-size: 13px;
+        line-height: 28px;
+    }
+}
